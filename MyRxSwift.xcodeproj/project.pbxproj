@@ -15,6 +15,7 @@
 		FF28AE631C86F55A001EDC0F /* ObserverType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF28AE621C86F55A001EDC0F /* ObserverType.swift */; };
 		FF28AE6D1C86F923001EDC0F /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF28AE6C1C86F923001EDC0F /* Disposable.swift */; };
 		FF28AE6F1C86F987001EDC0F /* ObservableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF28AE6E1C86F987001EDC0F /* ObservableType.swift */; };
+		FF28AE711C871CD0001EDC0F /* AnyObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF28AE701C871CD0001EDC0F /* AnyObserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		FF28AE621C86F55A001EDC0F /* ObserverType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObserverType.swift; sourceTree = "<group>"; };
 		FF28AE6C1C86F923001EDC0F /* Disposable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Disposable.swift; sourceTree = "<group>"; };
 		FF28AE6E1C86F987001EDC0F /* ObservableType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableType.swift; sourceTree = "<group>"; };
+		FF28AE701C871CD0001EDC0F /* AnyObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyObserver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,12 +84,9 @@
 		FF28AE461C86F1C2001EDC0F /* MyRxSwift */ = {
 			isa = PBXGroup;
 			children = (
-				FF28AE5E1C86F1D4001EDC0F /* Event.swift */,
+				FF28AE751C888EC8001EDC0F /* Primitive */,
 				FF28AE491C86F1C2001EDC0F /* Info.plist */,
 				FF28AE471C86F1C2001EDC0F /* MyRxSwift.h */,
-				FF28AE621C86F55A001EDC0F /* ObserverType.swift */,
-				FF28AE6C1C86F923001EDC0F /* Disposable.swift */,
-				FF28AE6E1C86F987001EDC0F /* ObservableType.swift */,
 			);
 			path = MyRxSwift;
 			sourceTree = "<group>";
@@ -99,6 +98,18 @@
 				FF28AE531C86F1C2001EDC0F /* MyRxSwiftTests.swift */,
 			);
 			path = MyRxSwiftTests;
+			sourceTree = "<group>";
+		};
+		FF28AE751C888EC8001EDC0F /* Primitive */ = {
+			isa = PBXGroup;
+			children = (
+				FF28AE701C871CD0001EDC0F /* AnyObserver.swift */,
+				FF28AE6C1C86F923001EDC0F /* Disposable.swift */,
+				FF28AE5E1C86F1D4001EDC0F /* Event.swift */,
+				FF28AE6E1C86F987001EDC0F /* ObservableType.swift */,
+				FF28AE621C86F55A001EDC0F /* ObserverType.swift */,
+			);
+			path = Primitive;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 			files = (
 				FF28AE5F1C86F1D4001EDC0F /* Event.swift in Sources */,
 				FF28AE6D1C86F923001EDC0F /* Disposable.swift in Sources */,
+				FF28AE711C871CD0001EDC0F /* AnyObserver.swift in Sources */,
 				FF28AE6F1C86F987001EDC0F /* ObservableType.swift in Sources */,
 				FF28AE631C86F55A001EDC0F /* ObserverType.swift in Sources */,
 			);
